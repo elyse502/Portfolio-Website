@@ -13,7 +13,7 @@
 
 ## Description
 
-This is my personal portfolio website, showcasing my skills as a front-end developer and UI/UX designer. The website provides information about me, my skills, and a selection of my work.
+This is a personal portfolio website, showcasing the skills as a front-end developer and UI/UX designer. The website provides information about the owner, her skills, and a selection of her work.
 
 ## Features
 
