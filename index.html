@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section id="container">
+     <header>
+     	<!--logo-->
+     	<div class="logo">
+     		<img src="img/my logo3.1.png" alt="tech lady">
+     	</div>
+     	<button class="nav-toggle" aria-label="toggle navigation">
+     		<span class="Hamburger"></span>
+     	</button>
+     	<!--navigation bar-->
+     	<nav class="nav">
+     		<ul class="nav__list">
+     			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+     			<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+     			<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+     			<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+     		</ul>
+     	</nav>
+     </header>
+     
+
+     <!--introduction-->
+     <section class="intro" id="home">
+     	<h1 class="section__title section__title--intro">
+     		Hi, I am <strong>Chandler Grace</strong>
+     	</h1>
+     	<p class="section__subtitle section__subtitle--intro">Front-end developer, UI/UX designer</p>
+     		
+     </section>
+     </section>
+
+     <!--my services-->
+     <section class="my-services" id="services">
+     	<h2 class="section__title section__title--services">My Skills</h2>
+         <div class="services">
+         <div class="service">
+            <div class="imag">
+                <img src="img/html2.png" class="skill-icon">
+            </div>
+            <h3>HTML 5</h3>
+         </div> <!-- close service1-->
+
+         <div class="service">
+            <div class="imag">
+                <img src="img/css2.png" class="skill-icon">
+            </div>
+            <h3>CSS 3</h3>
+         </div> <!-- close service2-->
+
+         <div class="service">
+            <div class="imag">
+                <img src="img/ux.png" class="skill-icon">
+            </div>
+            <h3>UX/UI</h3>
+         </div><!-- close service3-->
+
+
+         <div class="service">
+            <div class="imag">
+                <img src="img/bootstrap.png" class="skill-icon">
+            </div>
+            <h3>BOOTSTRAP</h3>
+         </div><!-- close service4-->
+
+         <div class="service">
+            <div class="imag">
+                <img src="img/js.png" class="skill-icon">
+            </div>
+            <h3>JAVASCRIPT</h3>
+         </div><!-- close service5-->
+        </div>
+     	<a href="#work" class="btn">My Work</a>	
+        
+     </section>
+
+     <!--About me-->
+     <section class="about-me" id="about">
+     <h2 class="section__title section__title--about">About Me</h2>
+     <h3 class="section__subtitle section__subtitle--about">A Frontend developer & a UI/UX designer</h3>
+
+     <div class="about-me__body">
+     	<p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur.
+        </p>
+     	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="https://www.doyoubuzz.com/alex-stephanie" class="btn">Download CV</a> 
+     </div>
+     </section>
+
+     <!--my work-->
+     <section class="my-work" id="work">
+     	<h2 class="section__title section__title--work">My Work</h2>
+     	<p class="section__subtitle section__subtitle--work">A selection of my work</p>
+
+     	<div class="portfolio">
+     		<!--Portfolio item 1-->
+     		<div class="portfolio1">
+                <a href="#" class="portfolio__item">
+                <img src="img/work1.jpg" alt="image1" class="portfolio__image" height="285px">
+                </a>
+                <h2>My Porfolio</h2>
+                <a href="#home" class="btn">As Seen</a> 
+            </div>
+
+     		<!--Portfolio item 2-->
+     		<div class="portfolio2">
+                <a href="#" class="portfolio__item">
+                <img src="img/work4.jpg" alt="image2" class="portfolio__image" height="285px">
+                </a>
+                <h2>e-Commerce website</h2>
+                <a href="#home" class="btn">View Site</a> 
+            </div>
+
+            <!--Portfolio item 3-->
+            <div class="portfolio3">
+                <a href="#" class="portfolio__item">
+                <img src="img/whatever.jpe" alt="image3" class="portfolio__image" height="285px">
+                </a>
+                <h2>e-Commerce Website Prototype</h2>
+                <a href="#home" class="btn">View Site</a> 
+            </div>
+
+     		<!--Portfolio item 4
+     		<div class="portfolio4">
+                <a href="#" class="portfolio__item">
+                <img src="img/what1.jpg" alt="image3" class="portfolio__image" height="285px">
+                </a>
+                <h2>Student Management System</h2>
+                <a href="#" class="btn">View Site</a> 
+            </div>-->
+
+            <!--Portfolio item 5-->
+            <div class="portfolio5">
+                <a href="#">
+                <img src="img/portfolio2.PNG" alt="image3" class="portfolio__image" height="285px">
+                </a>
+                <h2>Login/Signup Page </h2>
+                <a href="#home" class="btn">View Site</a> 
+            </div>
+
+
+     		
+     	</div>
+     </section>
+
+   <!-- footer-->
+   <footer class="footer">
+     <a href="mailto:Hi@portfolio.com" class="footer__link">Hi@portfolio.com</a>
+     <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+     </ul>
+     
+   </footer>
+   <script src="js/index.js"></script>
+
+</body>
+</html>
